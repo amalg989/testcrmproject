@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-family: 'Lato';
+}
+
+body.main{
+    overflow: hidden;
+}
+
+body.home .container{
+    margin-bottom: 50px;
+}
+
+.welcome-section{
+    height: 100vh;
+    padding: 10px;
+}
+
+.welcome-section h1{
+    text-align: center;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.welcome-section .infoImg{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    background: url('../images/main.png') no-repeat center center;
+    background-size: cover;
+}
+
+
+.login-section{
+    height: 100vh;
+    display: block;
+    padding: 20px;
+}
+
+.login-section section{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    margin: 80px auto;
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0px 3px 5px #666;
+}
+
+.login-section section.login{
+    border-top: 2px solid #FF7301;
+    display: block;
+}
+
+.login-section section.login h3{
+    font-family: sans-serif;
+}
+
+input{
+    font-family: sans-serif;
+    border-radius: 0;
+}
+
+.login-section section.registration{
+    border-top: 2px solid #1DD2FF;
+    display: none;
+    width: 100%;
+}
+
+.login-section section.registration h3{
+    font-family: sans-serif;
+}
+
+.login-section section.registration input{
+    font-family: sans-serif;
+    border-radius: 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+}
+
+.home-title{
+    float: left;
+    width: 50%;
+}
+
+#logoutBtn{
+    display: block;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    float: right;
+    padding: 15px;
+    outline: none;
+}
+
+table#customerTable,
+table#contactsTable,
+table#activitiesTable{
+    font-family: sans-serif;
+}
+
+table tr td a.actionlinks{
+    color: #444;
+    font-size: medium;
+    margin-right: 10px;
+}
+
+table tr td a.actionlinks:hover{
+    color: #000;
+}
+
+.addnewlabel{
+    font-size: 14px;
+    padding: 0.2em .4em .3em;
+    color: #fff;
+    margin: 10px 0px 0px 5px;
+    position: absolute;
+}
+
+.addnewlabel a{
+    color: #fff;
+}
+
+section.customers-table{
+    display: block;
+    padding: 20px;
+    background: #F9F9F9;
+    border-radius: 5px;
+}
+
+section.contacts-table{
+    display: block;
+    padding: 20px;
+    background: #F9F9F9;
+    border-radius: 5px;
+}
+
+section.activities-table{
+    display: block;
+    padding: 20px;
+    background: #F9F9F9;
+    border-radius: 5px;
+}
+
+section.customerInfo-table{
+    display: none;
+}
+
+section.contacts-table,
+section.activities-table{
+    min-height: 350px;
+}
